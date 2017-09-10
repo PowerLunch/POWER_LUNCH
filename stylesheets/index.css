@@ -48,8 +48,7 @@ a {
   padding-right: 50px;
 }
 
-.header{
-  margin: 0px;
+.header {
   padding-top: 40px;
   padding-bottom: 60px;
   text-align: center;
@@ -59,6 +58,11 @@ a {
 .list {
   list-style-type: none;
   text-align: center;
+  padding-left: 0px;
+}
+
+.episode {
+  padding-top: 80px;
 }
 
 .person {
