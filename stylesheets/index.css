@@ -25,30 +25,22 @@ body {
 
 #navbar {
   background-color: #fc6e25;
-  font-size: 1em;
-  text-align: center;
+  text-align: center !important;
 }
 
-#nav-ul {
-  text-decoration: none;
-  overflow: hidden;
-  list-style-type: none;
-  display: inline-flex;
-}
 
-#nav-ul, a {
-  float: left;
+.nav-link {
   text-decoration: none;
   color: black;
 }
 
-#nav-ul h3 {
-  padding-right: 50px;
-}
 
 .center {
   text-align: center;
 }
+
+
+
 
 .video-list {
   list-style-type: none;
