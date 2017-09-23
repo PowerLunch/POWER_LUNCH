@@ -22,24 +22,28 @@ body {
   justify-content: center;
 }
 
-
-#navbar {
-  background-color: #fc6e25;
-  text-align: center !important;
-}
-
-
-.nav-link {
-  text-decoration: none;
-  color: black;
-}
-
-
-.center {
+#navbar-x {
+  background-color: #fc6e25 !important;
   text-align: center;
 }
 
+.nav {
+  margin: auto;
+}
 
+.nav-link {
+  color: black !important;
+  margin-right: 2em;
+  white-space: nowrap;
+}
+
+.nav-link:hover {
+  color: rgba(226, 88, 190, 0.75) !important;
+}
+
+.center {
+  text-align: center !important;
+}
 
 
 .video-list {
