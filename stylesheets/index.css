@@ -55,20 +55,11 @@ body {
   margin: 80px;
 }
 
-.contact {
+.bio {
   text-align: center;
   margin: 80px 30vw 80px 30vw;
 }
 
 .headshot {
   max-height: 300px;
-}
-
-.contact-x {
-  text-align: center;
-}
-
-.contact-text {
-  display: inline-block;
-  text-align: left;
 }
