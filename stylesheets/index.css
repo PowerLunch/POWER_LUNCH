@@ -6,6 +6,7 @@
 body {
   font-family: CougherBlackOblique;
   background-color: #949699;
+  color: black;
 }
 
 .text-overlay {
@@ -45,10 +46,13 @@ body {
   text-align: center !important;
 }
 
+.header-container {
+  margin: 60px;
+  font-size: 70px;
+}
 
-.video-list {
-  list-style-type: none;
-  padding-left: 0px;
+.video-container {
+  margin: 80px;
 }
 
 .people-list {
