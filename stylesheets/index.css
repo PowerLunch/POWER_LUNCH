@@ -23,6 +23,10 @@ body {
   justify-content: center;
 }
 
+.splash {
+  width: 100vw;
+}
+
 #navbar-x {
   background-color: #fc6e25 !important;
   text-align: center;
