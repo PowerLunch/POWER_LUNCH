@@ -55,30 +55,16 @@ body {
   margin: 80px;
 }
 
-.people-list {
-  padding: 40px
-}
-
-.episode {
-  padding-top: 80px;
-}
-
-.person {
-  display: inline-flex;
-  text-align: left;
-  padding-bottom: 60px;
+.contact {
+  text-align: center;
+  margin: 80px 30vw 80px 30vw;
 }
 
 .headshot {
-  height: 200px;
+  max-height: 300px;
 }
 
-.people-text {
-  position: relative;
-  padding-left: 20px;
-}
-
-.contact {
+.contact-x {
   text-align: center;
 }
 
