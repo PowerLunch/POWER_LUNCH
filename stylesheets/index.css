@@ -9,6 +9,9 @@ body {
   color: black;
 }
 
+a {
+  color: #c950aa;
+}
 .text-overlay {
   color: rgba(226, 88, 190, 0.75);
   font-size: 70px;
@@ -44,7 +47,7 @@ body {
 }
 
 .nav-link-x:hover {
-  color: rgba(226, 88, 190, 0.75) !important;
+  color: #c950aa!important;
   text-decoration: none;
 }
 
@@ -63,15 +66,23 @@ body {
   font-size: 5em;
 }
 
-.video-container {
+.container-x {
   margin: 80px;
 }
 
-.bio {
-  text-align: center;
-  margin: 80px 30vw 80px 30vw;
+.headshot {
+  height: 300px;
+  border-radius: 5px;
 }
 
-.headshot {
-  max-height: 300px;
+@media screen and (max-width: 768px) {
+  .container-x {
+    margin: 80px 0 80px 0;
+  }
+
+  .headshot {
+    width: auto;
+    max-height: 30vh;
+    border-radius: 5px;
+  }
 }
