@@ -91,7 +91,11 @@ a {
 .headshot {
   height: 300px;
   border-radius: 5px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
+}
+
+.headshot-pw {
+  margin-bottom: 40px;
 }
 
 @media screen and (max-width: 768px) {
