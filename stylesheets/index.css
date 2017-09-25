@@ -40,13 +40,18 @@ body {
 .nav-link-x {
   text-decoration: none;
   color: black !important;
-  /*margin-right: 2em;*/
   white-space: nowrap;
 }
 
 .nav-link-x:hover {
   color: rgba(226, 88, 190, 0.75) !important;
   text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-link-x {
+    margin-right: 2em;
+  }
 }
 
 .center {
