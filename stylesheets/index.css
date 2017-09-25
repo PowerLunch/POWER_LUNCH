@@ -101,6 +101,11 @@ a {
 
   .headshot {
     width: auto;
-    max-height: 26vh;
+    max-height: 30vh;
+  }
+
+  .headshot-pw {
+    width: auto;
+    max-height: 24vh;
   }
 }
