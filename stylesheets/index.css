@@ -88,6 +88,12 @@ a {
   margin: 80px;
 }
 
+.about {
+  text-align: left;
+  display: inline-block;
+  font-size: 1em;
+}
+
 .headshot {
   height: 300px;
   border-radius: 5px;
