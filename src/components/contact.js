@@ -1,10 +1,10 @@
 class Contact {
-  constructor (nav) {
+  constructor () {
     this.contact = document.getElementById('root')
-    this.navbar = nav
+    this.navbar = new NavBar().render()
   }
 
-  content () {
+  content (navbar) {
     return `
       ${navbar}
       <div class="container center">
@@ -24,6 +24,6 @@ class Contact {
   }
 
   render () {
-    this.contact.innerHTML = this.content(tis.navbar)
+    this.contact.innerHTML = this.content(this.navbar)
   }
 }

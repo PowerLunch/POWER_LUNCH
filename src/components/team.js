@@ -1,10 +1,10 @@
 class Team {
-  constructor (nav) {
+  constructor () {
     this.team = document.getElementById('root')
-    this.navbar = nav
+    this.navbar = new NavBar().render()
   }
 
-  content () {
+  content (navbar) {
     return `
       ${navbar}
       <div class="container center">

@@ -1,0 +1,47 @@
+/*CHANGE THIS*/
+
+{
+  "name": "splash",
+  "version": "1.0.0",
+  "description": "indexof",
+  "main": "./server/index.js",
+  "scripts": {
+    "start": "babel-node server/index.js --presets es2015,stage-2",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/indexOf-staff/splash.git"
+  },
+  "keywords": [
+    "js",
+    "react",
+    "node",
+    "mongo",
+    "marketing"
+  ],
+  "author": "indeof.io",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/indexOf-staff/splash/issues"
+  },
+  "homepage": "https://github.com/indexOf-staff/splash#readme",
+  "dependencies": {
+    "bcrypt": "^1.0.2",
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.4",
+    "express": "^4.15.4",
+    "mongoose": "^4.11.6",
+    "morgan": "^1.8.2",
+    "path": "^0.12.7",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-scripts": "1.0.10",
+    "semantic-ui-react": "^0.71.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1"
+  }
+}

@@ -1,7 +1,7 @@
 class Episodes {
-  constructor (nav) {
+  constructor () {
     this.episodes = document.getElementById('root')
-    this.navbar = nav
+    this.navbar = new NavBar().render()
   }
 
   content (navbar) {

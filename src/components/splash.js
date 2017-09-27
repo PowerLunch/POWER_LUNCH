@@ -5,11 +5,11 @@ class Splash {
 
   content () {
     return `
-      <a href="about.html">
+      <a href="/about">
         <video class="splash-vid" preload="true" autoplay playsinline loop muted>
-          <source src="images/videos/splash.mebm" type="video/webm">
-          <source src="images/videos/splash.mp4" type="video/mp4">
-          <source src="images/videos/splash.mp4.ogg" type="video/ogg">
+          <source src="media/videos/splash.webm" type="video/webm">
+          <source src="media/videos/splash.mp4" type="video/mp4">
+          <source src="media/videos/splash.mp4.ogg" type="video/ogg">
         </video>
         <div class="text-overlay">
           <span>POWER LUNCH</span>

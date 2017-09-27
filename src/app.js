@@ -1,3 +1,5 @@
+const page = require('page')
+
 class App {
   constructor () {
     // this.whichPage = this.getParam()

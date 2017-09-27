@@ -1,7 +1,7 @@
 class About {
-  constructor (nav) {
+  constructor () {
     this.about = document.getElementById('root')
-    this.navbar = nav
+    this.navbar = new NavBar().render()
   }
 
   content (navbar) {
