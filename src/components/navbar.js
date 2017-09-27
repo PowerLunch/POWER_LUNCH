@@ -1,9 +1,5 @@
 class NavBar {
-  constructor () {
-    this.navbar = document.getElementById('navbar-x')
-  }
-
-  template () {
+  render () {
     return `
       <nav class="navbar navbar-toggleable-sm">
         <div class="nav navbar-nav align-items-center">
@@ -16,11 +12,4 @@ class NavBar {
       </nav>
     `
   }
-
-  render () {
-    this.navbar.innerHTML = this.template()
-  }
 }
-
-const app = new NavBar()
-app.render()

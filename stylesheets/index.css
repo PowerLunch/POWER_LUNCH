@@ -48,7 +48,7 @@ a {
   height: auto;
 }
 
-#navbar-x {
+.navbar {
   background-color: #fc6e25 !important;
   text-align: center;
 }

@@ -1,22 +1,13 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset='utf-8'>
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+class Episodes {
+  constructor (nav) {
+    this.episodes = document.getElementById('root')
+    this.navbar = nav
+  }
 
-    <link rel='shortcut icon' type='image/x-icon' href='images/favicon.ico' />
-    <link rel="stylesheet" href='stylesheets/index.css'>
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    <link rel="stylesheet" href='stylesheets/index.css'>
-
-    <title>POWER LUNCH</title>
-  </head>
-  <body>
-
-    <div id='navbar-x'></div>
-
-    <div class="container center">
+  content (navbar) {
+    return `
+      ${navbar}
+      <div class="container center">
       <div class="header-container">
         <span>EPISODES</span>
       </div>
@@ -62,8 +53,10 @@
           <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/175908154" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
         </div>
       </div>
+    `
+  }
 
-    <script type="text/javascript" src="./src/components/navbar.js"></script>
-
-  </body>
-</html>
+  render () {
+    this.episodes.innerHTML = this.content(this.navbar)
+  }
+}
