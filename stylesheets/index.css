@@ -59,6 +59,7 @@ a {
 }
 
 .nav-link-x {
+  font-size: .5em;
   text-decoration: none;
   color: black !important;
   white-space: nowrap;
@@ -69,9 +70,9 @@ a {
   text-decoration: none;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 767px) {
   .nav-link-x {
-    margin-right: 2em;
+    margin-right: 2.0em;
   }
 }
 
