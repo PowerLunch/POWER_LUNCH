@@ -7,11 +7,11 @@ class NavBar {
     return `
       <nav class="navbar navbar-toggleable-sm">
         <div class="nav navbar-nav align-items-center">
-          <a class="nav-link-x" href="index.html"><h1>POWER LUNCH</h1></a>
-          <a class="nav-link-x" href="about.html"><h1>ABOUT</h1></a>
-          <a class="nav-link-x" href="episodes.html"><h1>EPISODES</h1></a>
-          <a class="nav-link-x" href="team.html"><h1>TEAM</h1></a>
-          <a class="nav-link-x" href="contact.html"><h1>CONTACT</h1></a>
+          <a class="nav-link-x margin-r" href="index.html">POWER LUNCH</a>
+          <a class="nav-link-x margin-r" href="about.html">ABOUT</a>
+          <a class="nav-link-x margin-r" href="episodes.html">EPISODES</a>
+          <a class="nav-link-x margin-r" href="team.html">TEAM</a>
+          <a class="nav-link-x" href="contact.html">CONTACT</a>
         </div>
       </nav>
     `

@@ -59,7 +59,7 @@ a {
 }
 
 .nav-link-x {
-  font-size: .5em;
+  font-size: 3.0em;
   text-decoration: none;
   color: black !important;
   white-space: nowrap;
@@ -70,9 +70,15 @@ a {
   text-decoration: none;
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (max-width: 874px) {
   .nav-link-x {
-    margin-right: 2.0em;
+    font-size: 2.5em;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .margin-r {
+    margin-right: 15px;
   }
 }
 
@@ -111,14 +117,12 @@ a {
   }
 
   .headshot {
-    /*width: auto;
-    height: 25vh;*/
     width: 70vw;
     height: auto;
   }
 
   .headshot-pw {
-    width: auto;
-    max-height: 20vh;
+    width: 70vw;
+    height: auto;
   }
 }
