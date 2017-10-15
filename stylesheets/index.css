@@ -1,12 +1,12 @@
 @font-face {
-    font-family: CougherBlackOblique;
-    src: url("../fonts/CougherBlackOblique.woff") format("woff"), url("../fonts/CougherBlackOblique.ttf")  format("truetype");
+  font-family: CougherBlackOblique;
+  src: url("../fonts/CougherBlackOblique.woff") format("woff"), url("../fonts/CougherBlackOblique.ttf")  format("truetype");
 }
 
 body {
-  font-family: CougherBlackOblique;
-  background-color: #949699;
-  color: black;
+  font-family: CougherBlackOblique !important;
+  background-color: #949699 !important;
+  color: black !important;
 }
 
 a {
@@ -95,10 +95,14 @@ a {
   margin: 80px;
 }
 
+.test{
+  font-family: 'Fjalla One';
+}
+
 .about {
   text-align: left;
   display: inline-block;
-  font-size: 2em;
+  font-size: 4em;
 }
 
 .headshot {
