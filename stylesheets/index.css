@@ -1,16 +1,7 @@
-@font-face {
-  font-family: CougherBlackOblique;
-  src: url("../fonts/CougherBlackOblique.woff") format("woff"), url("../fonts/CougherBlackOblique.ttf")  format("truetype");
-}
-
 body {
-  font-family: CougherBlackOblique !important;
-  background-color: #949699 !important;
-  color: black !important;
-}
-
-a {
-  color: #c950aa;
+  font-family: 'Fjalla One';
+  background-color: white !important;
+  color: #8D8D8D !important;
 }
 
 .text-overlay {
@@ -66,7 +57,7 @@ a {
 }
 
 .nav-link-x:hover {
-  color: #c950aa!important;
+  color: #f1e3a1 !important;
   text-decoration: none;
 }
 
@@ -93,10 +84,6 @@ a {
 
 .container-x {
   margin: 80px;
-}
-
-.test{
-  font-family: 'Fjalla One';
 }
 
 .about {
