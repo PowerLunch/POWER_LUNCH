@@ -12,13 +12,6 @@ body {
   border-color: #f1e3a1;
 }
 
-.wrapper {
-    height:     auto !important;
-    min-height: 100% !important;
-    margin:     0px auto !important;
-    padding:    0px auto;
- }
-
 a {
   color: #f1e3a1 !important;
   text-decoration: none !important;
@@ -35,12 +28,6 @@ a {
   -webkit-transform: translateX(-50%) translateY(-50%);
   -moz-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-}
-
-@media screen and (max-width: 440px) {
-  .text-overlay {
-    font-size: 3.0em;
-  }
 }
 
 .splash-vid  {
@@ -134,6 +121,12 @@ a {
 .cone {
   width: 30vw;
   margin-bottom: 4px;
+}
+
+@media screen and (max-width: 440px) {
+  .text-overlay {
+    font-size: 3.0em;
+  }
 }
 
 @media screen and (max-width: 1020px) {
