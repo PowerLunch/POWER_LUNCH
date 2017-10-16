@@ -1,7 +1,26 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
 body {
   font-family: 'Fjalla One';
-  background-color: white !important;
+  background-color: black !important;
   color: #8D8D8D !important;
+}
+
+.bordered {
+  width: 100%;
+  height: 100%;
+  border-width: 20px;
+  border-style: none dashed none dashed;
+  border-color: #f1e3a1;
+}
+
+a {
+  color: #f1e3a1 !important;
+  text-decoration: none !important;
 }
 
 .text-overlay {
@@ -49,10 +68,6 @@ body {
   text-align: center !important;
 }
 
-.current-page {
-  color: #f1e3a1 !important;
-}
-
 .nav-link-x {
   font-size: 2.5em;
   text-decoration: none;
@@ -65,16 +80,26 @@ body {
   text-decoration: none;
 }
 
+.current-page {
+  color: #f1e3a1 !important;
+}
+
 .center {
   text-align: center !important;
 }
 
 .title-x {
-  font-size: 5em;
+  font-size: 4.0em;
+  font-weight: bold;
 }
 
 .container-x {
   margin: 80px;
+}
+
+.container-top {
+  margin: 0 80px 80px 80px;
+  padding-top: 80px;
 }
 
 .about {
@@ -83,10 +108,22 @@ body {
   font-size: 4em;
 }
 
+.bio-x {
+  font-size: 1.4em;
+}
+
 .headshot {
   height: 300px;
   border-radius: 5px;
   margin-bottom: 10px;
+}
+
+.ad {
+  width: 70vw;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
 }
 
 .headshot-pw {
@@ -108,6 +145,10 @@ body {
 @media screen and (max-width: 768px) {
   .container-x {
     margin: 80px 0 80px 0;
+  }
+
+  .jughead {
+    margin: 0 0 80px 0;
   }
 
   .headshot {
