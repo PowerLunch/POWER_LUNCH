@@ -105,8 +105,6 @@ body {
 }
 
 .about {
-  text-align: left;
-  display: inline-block;
   font-size: 4em;
 }
 
@@ -121,9 +119,7 @@ body {
 }
 
 .ad {
-  width: 70vw;
-  border-radius: 5px;
-  margin-bottom: 10px;
+  height: 200px;
   -webkit-filter: invert(100%);
   filter: invert(100%);
 }
@@ -141,7 +137,7 @@ body {
 
 @media screen and (max-width: 440px) {
   .text-overlay {
-    font-size: 2.8em;
+    font-size: 2.5em;
   }
 }
 
